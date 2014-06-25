@@ -28,10 +28,10 @@ public class TocHw3 {
 							
 							count++;
 							amount += jsonRealPrice.getJSONObject(i).getInt("總價元");
-							System.out.println(jsonRealPrice.getJSONObject(i).getString("鄉鎮市區") + "    " + 
+							/*System.out.println(jsonRealPrice.getJSONObject(i).getString("鄉鎮市區") + "    " + 
 									jsonRealPrice.getJSONObject(i).getString("土地區段位置或建物區門牌") + "    " + 
 									jsonRealPrice.getJSONObject(i).getInt("交易年月") + "    " +
-									jsonRealPrice.getJSONObject(i).getInt("總價元"));
+									jsonRealPrice.getJSONObject(i).getInt("總價元"));*/
 						}
 			}
 		} catch (IOException e) {
